@@ -16,7 +16,7 @@ class Genres
   
   @@genres = []
   
-  def initialize
+  def self.genres
     @@genres += []
   end
 end
