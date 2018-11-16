@@ -9,25 +9,18 @@ class Song
   def self.count
     @@count
   end
-end
-
-
-class Genres
   
   @@genres = []
   
   def self.genres
     @@genres.uniq
   end
-end
 
-
-class Artists
   
   @@artists = []
   
-  def initialize
-    @@artists += []
+  def self.artists
+    @@artists.uniq
   end
   
   
