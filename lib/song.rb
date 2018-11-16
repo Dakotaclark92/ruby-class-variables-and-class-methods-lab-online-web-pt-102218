@@ -17,7 +17,7 @@ class Genres
   @@genres = []
   
   def self.genres
-    @@genres += []
+    @@genres.uniq
   end
 end
 
